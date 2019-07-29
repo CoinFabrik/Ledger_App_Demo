@@ -1,0 +1,39 @@
+{
+  "name": "chrome_ledger_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ledgerhq/hw-transport-u2f": "^4.68.2",
+    "@ledgerhq/hw-transport-webauthn": "^4.68.2",
+    "@ledgerhq/hw-transport-webusb": "^4.68.2",
+    "@ledgerhq/live-common": "^7.8.0",
+    "algosdk": "^1.2.1",
+    "bn.js": "^5.0.0",
+    "promise-queue": "^2.2.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "rxjs": "^6.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
